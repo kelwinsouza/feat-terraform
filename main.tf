@@ -9,7 +9,7 @@ terraform {
   backend "s3" {
     bucket = "value"
     key = "value"
-    region = "value"
+    region = "sa-east-1"
   }
 
 }
