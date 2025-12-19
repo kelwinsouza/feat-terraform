@@ -1,8 +1,18 @@
-**/.terraform/*
-
-*.tfstate
-*.tfstate.*
-
+# SSH keys
+aws-key
 *.pem
 
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
 .terraform.lock.hcl
+*.tfvars
+terraform.tfvars
+*.out
+
+# Editor / OS
+*~
+*.swp
+*.swo
+.DS_Store
