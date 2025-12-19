@@ -7,8 +7,8 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "value"
-    key = "value"
+    bucket = "projeto-backups001"
+    key    = "aws-vpc/terraform.tfstate"
     region = "sa-east-1"
   }
 

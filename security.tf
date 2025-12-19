@@ -1,7 +1,7 @@
 resource "aws_security_group" "security_group" {
   name        = "asecurity_group_terraform_3"
   description = "permitir acesso na porta 22"
-  vpc_id      = aws_vpc.vpc.id
+  vpc_id      =  aws_vpc.main.id
 
   ingress {
     description = "SSH"

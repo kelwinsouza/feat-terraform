@@ -13,7 +13,7 @@ resource "aws_subnet" "subnet" {
         Name= "Subnet_terraform_001"
 }
 }
-resource "aws_internet_gateway" "geteway" {
+resource "aws_internet_gateway" "gateway" {
     vpc_id = aws_vpc.main.id
 
     tags = {
